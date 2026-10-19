@@ -24,8 +24,8 @@ if platform == "android":
     def play_scream():
         global _player
         try:
-            src = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scream.wav")
-            dst = os.path.join(mActivity.getCacheDir().getAbsolutePath(), "scream.wav")
+            src = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scream.mp3")
+            dst = os.path.join(mActivity.getCacheDir().getAbsolutePath(), "scream.mp3")
             if not os.path.exists(dst) and os.path.exists(src):
                 shutil.copy2(src, dst)
 
