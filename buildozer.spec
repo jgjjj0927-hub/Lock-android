@@ -5,7 +5,7 @@ package.domain = com.pidori.locker
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,wav,mp3
 version = 1.0
-requirements = python3,kivy,pyjnius
+requirements = python3==3.11.9,kivy,pyjnius
 orientation = portrait
 fullscreen = 1
 android.api = 31
